@@ -74,6 +74,7 @@ void dequeue::add_at_end(int item)
 	else
 	{
 		a[++rear]=item;
+                count++;
 	}
 
 
